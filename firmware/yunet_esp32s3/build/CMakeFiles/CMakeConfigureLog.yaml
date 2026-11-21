@@ -1,0 +1,3138 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindGit.cmake:111 (find_program)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/git_submodules.cmake:1 (find_package)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/idf.cmake:41 (include)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:29 (include)"
+      - "CMakeLists.txt:8 (include)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/git"
+      - "/home/vini_muchulski/.opencode/bin/git"
+      - "/home/vini_muchulski/.local/bin/git"
+      - "/usr/local/sbin/git"
+      - "/usr/local/bin/git"
+      - "/usr/sbin/git"
+    found: "/usr/bin/git"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/uname"
+      - "/home/vini_muchulski/.opencode/bin/uname"
+      - "/home/vini_muchulski/.local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Linux - 7.0.0-43-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/gmake"
+      - "/home/vini_muchulski/.opencode/bin/gmake"
+      - "/home/vini_muchulski/.local/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-esp32-elf-gcc"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/xtensa-esp32-elf-gcc"
+      - "/home/vini_muchulski/.opencode/bin/xtensa-esp32-elf-gcc"
+      - "/home/vini_muchulski/.local/bin/xtensa-esp32-elf-gcc"
+      - "/usr/local/sbin/xtensa-esp32-elf-gcc"
+      - "/usr/local/bin/xtensa-esp32-elf-gcc"
+      - "/usr/sbin/xtensa-esp32-elf-gcc"
+      - "/usr/bin/xtensa-esp32-elf-gcc"
+      - "/sbin/xtensa-esp32-elf-gcc"
+      - "/bin/xtensa-esp32-elf-gcc"
+      - "/usr/games/xtensa-esp32-elf-gcc"
+      - "/usr/local/games/xtensa-esp32-elf-gcc"
+      - "/snap/bin/xtensa-esp32-elf-gcc"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/xtensa-esp32-elf-gcc"
+      - "/home/vini_muchulski/Android/Sdk/emulator/xtensa-esp32-elf-gcc"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/xtensa-esp32-elf-gcc"
+      - "/opt/gradle/bin/xtensa-esp32-elf-gcc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: xtensa-esp32-elf-gcc 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: xtensa-esp32-elf-gcc 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: xtensa-esp32-elf-gcc 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags: -Aa 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: xtensa-esp32-elf-gcc 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: xtensa-esp32-elf-gcc 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: xtensa-esp32-elf-gcc 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: xtensa-esp32-elf-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: xtensa-esp32-elf-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: xtensa-esp32-elf-gcc 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: xtensa-esp32-elf-gcc 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: xtensa-esp32-elf-gcc 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: xtensa-esp32-elf-gcc 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-esp32-elf-ar"
+      - "ar"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/xtensa-esp32-elf-ar"
+      - "/home/vini_muchulski/.opencode/bin/xtensa-esp32-elf-ar"
+      - "/home/vini_muchulski/.local/bin/xtensa-esp32-elf-ar"
+      - "/usr/local/sbin/xtensa-esp32-elf-ar"
+      - "/usr/local/bin/xtensa-esp32-elf-ar"
+      - "/usr/sbin/xtensa-esp32-elf-ar"
+      - "/usr/bin/xtensa-esp32-elf-ar"
+      - "/sbin/xtensa-esp32-elf-ar"
+      - "/bin/xtensa-esp32-elf-ar"
+      - "/usr/games/xtensa-esp32-elf-ar"
+      - "/usr/local/games/xtensa-esp32-elf-ar"
+      - "/snap/bin/xtensa-esp32-elf-ar"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/xtensa-esp32-elf-ar"
+      - "/home/vini_muchulski/Android/Sdk/emulator/xtensa-esp32-elf-ar"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/xtensa-esp32-elf-ar"
+      - "/opt/gradle/bin/xtensa-esp32-elf-ar"
+      - "/home/vini_muchulski/.platformio/penv/bin/ar"
+      - "/home/vini_muchulski/.opencode/bin/ar"
+      - "/home/vini_muchulski/.local/bin/ar"
+      - "/usr/local/sbin/ar"
+      - "/usr/local/bin/ar"
+      - "/usr/sbin/ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-esp32-elf-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/xtensa-esp32-elf-ranlib"
+      - "/home/vini_muchulski/.opencode/bin/xtensa-esp32-elf-ranlib"
+      - "/home/vini_muchulski/.local/bin/xtensa-esp32-elf-ranlib"
+      - "/usr/local/sbin/xtensa-esp32-elf-ranlib"
+      - "/usr/local/bin/xtensa-esp32-elf-ranlib"
+      - "/usr/sbin/xtensa-esp32-elf-ranlib"
+      - "/usr/bin/xtensa-esp32-elf-ranlib"
+      - "/sbin/xtensa-esp32-elf-ranlib"
+      - "/bin/xtensa-esp32-elf-ranlib"
+      - "/usr/games/xtensa-esp32-elf-ranlib"
+      - "/usr/local/games/xtensa-esp32-elf-ranlib"
+      - "/snap/bin/xtensa-esp32-elf-ranlib"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/xtensa-esp32-elf-ranlib"
+      - "/home/vini_muchulski/Android/Sdk/emulator/xtensa-esp32-elf-ranlib"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/xtensa-esp32-elf-ranlib"
+      - "/opt/gradle/bin/xtensa-esp32-elf-ranlib"
+      - "/home/vini_muchulski/.platformio/penv/bin/ranlib"
+      - "/home/vini_muchulski/.opencode/bin/ranlib"
+      - "/home/vini_muchulski/.local/bin/ranlib"
+      - "/usr/local/sbin/ranlib"
+      - "/usr/local/bin/ranlib"
+      - "/usr/sbin/ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-esp32-elf-strip"
+      - "strip"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/xtensa-esp32-elf-strip"
+      - "/home/vini_muchulski/.opencode/bin/xtensa-esp32-elf-strip"
+      - "/home/vini_muchulski/.local/bin/xtensa-esp32-elf-strip"
+      - "/usr/local/sbin/xtensa-esp32-elf-strip"
+      - "/usr/local/bin/xtensa-esp32-elf-strip"
+      - "/usr/sbin/xtensa-esp32-elf-strip"
+      - "/usr/bin/xtensa-esp32-elf-strip"
+      - "/sbin/xtensa-esp32-elf-strip"
+      - "/bin/xtensa-esp32-elf-strip"
+      - "/usr/games/xtensa-esp32-elf-strip"
+      - "/usr/local/games/xtensa-esp32-elf-strip"
+      - "/snap/bin/xtensa-esp32-elf-strip"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/xtensa-esp32-elf-strip"
+      - "/home/vini_muchulski/Android/Sdk/emulator/xtensa-esp32-elf-strip"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/xtensa-esp32-elf-strip"
+      - "/opt/gradle/bin/xtensa-esp32-elf-strip"
+      - "/home/vini_muchulski/.platformio/penv/bin/strip"
+      - "/home/vini_muchulski/.opencode/bin/strip"
+      - "/home/vini_muchulski/.local/bin/strip"
+      - "/usr/local/sbin/strip"
+      - "/usr/local/bin/strip"
+      - "/usr/sbin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-esp32-elf-ld"
+      - "ld"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/xtensa-esp32-elf-ld"
+      - "/home/vini_muchulski/.opencode/bin/xtensa-esp32-elf-ld"
+      - "/home/vini_muchulski/.local/bin/xtensa-esp32-elf-ld"
+      - "/usr/local/sbin/xtensa-esp32-elf-ld"
+      - "/usr/local/bin/xtensa-esp32-elf-ld"
+      - "/usr/sbin/xtensa-esp32-elf-ld"
+      - "/usr/bin/xtensa-esp32-elf-ld"
+      - "/sbin/xtensa-esp32-elf-ld"
+      - "/bin/xtensa-esp32-elf-ld"
+      - "/usr/games/xtensa-esp32-elf-ld"
+      - "/usr/local/games/xtensa-esp32-elf-ld"
+      - "/snap/bin/xtensa-esp32-elf-ld"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/xtensa-esp32-elf-ld"
+      - "/home/vini_muchulski/Android/Sdk/emulator/xtensa-esp32-elf-ld"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/xtensa-esp32-elf-ld"
+      - "/opt/gradle/bin/xtensa-esp32-elf-ld"
+      - "/home/vini_muchulski/.platformio/penv/bin/ld"
+      - "/home/vini_muchulski/.opencode/bin/ld"
+      - "/home/vini_muchulski/.local/bin/ld"
+      - "/usr/local/sbin/ld"
+      - "/usr/local/bin/ld"
+      - "/usr/sbin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-esp32-elf-nm"
+      - "nm"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/xtensa-esp32-elf-nm"
+      - "/home/vini_muchulski/.opencode/bin/xtensa-esp32-elf-nm"
+      - "/home/vini_muchulski/.local/bin/xtensa-esp32-elf-nm"
+      - "/usr/local/sbin/xtensa-esp32-elf-nm"
+      - "/usr/local/bin/xtensa-esp32-elf-nm"
+      - "/usr/sbin/xtensa-esp32-elf-nm"
+      - "/usr/bin/xtensa-esp32-elf-nm"
+      - "/sbin/xtensa-esp32-elf-nm"
+      - "/bin/xtensa-esp32-elf-nm"
+      - "/usr/games/xtensa-esp32-elf-nm"
+      - "/usr/local/games/xtensa-esp32-elf-nm"
+      - "/snap/bin/xtensa-esp32-elf-nm"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/xtensa-esp32-elf-nm"
+      - "/home/vini_muchulski/Android/Sdk/emulator/xtensa-esp32-elf-nm"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/xtensa-esp32-elf-nm"
+      - "/opt/gradle/bin/xtensa-esp32-elf-nm"
+      - "/home/vini_muchulski/.platformio/penv/bin/nm"
+      - "/home/vini_muchulski/.opencode/bin/nm"
+      - "/home/vini_muchulski/.local/bin/nm"
+      - "/usr/local/sbin/nm"
+      - "/usr/local/bin/nm"
+      - "/usr/sbin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-esp32-elf-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/xtensa-esp32-elf-objdump"
+      - "/home/vini_muchulski/.opencode/bin/xtensa-esp32-elf-objdump"
+      - "/home/vini_muchulski/.local/bin/xtensa-esp32-elf-objdump"
+      - "/usr/local/sbin/xtensa-esp32-elf-objdump"
+      - "/usr/local/bin/xtensa-esp32-elf-objdump"
+      - "/usr/sbin/xtensa-esp32-elf-objdump"
+      - "/usr/bin/xtensa-esp32-elf-objdump"
+      - "/sbin/xtensa-esp32-elf-objdump"
+      - "/bin/xtensa-esp32-elf-objdump"
+      - "/usr/games/xtensa-esp32-elf-objdump"
+      - "/usr/local/games/xtensa-esp32-elf-objdump"
+      - "/snap/bin/xtensa-esp32-elf-objdump"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/xtensa-esp32-elf-objdump"
+      - "/home/vini_muchulski/Android/Sdk/emulator/xtensa-esp32-elf-objdump"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/xtensa-esp32-elf-objdump"
+      - "/opt/gradle/bin/xtensa-esp32-elf-objdump"
+      - "/home/vini_muchulski/.platformio/penv/bin/objdump"
+      - "/home/vini_muchulski/.opencode/bin/objdump"
+      - "/home/vini_muchulski/.local/bin/objdump"
+      - "/usr/local/sbin/objdump"
+      - "/usr/local/bin/objdump"
+      - "/usr/sbin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-esp32-elf-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/xtensa-esp32-elf-objcopy"
+      - "/home/vini_muchulski/.opencode/bin/xtensa-esp32-elf-objcopy"
+      - "/home/vini_muchulski/.local/bin/xtensa-esp32-elf-objcopy"
+      - "/usr/local/sbin/xtensa-esp32-elf-objcopy"
+      - "/usr/local/bin/xtensa-esp32-elf-objcopy"
+      - "/usr/sbin/xtensa-esp32-elf-objcopy"
+      - "/usr/bin/xtensa-esp32-elf-objcopy"
+      - "/sbin/xtensa-esp32-elf-objcopy"
+      - "/bin/xtensa-esp32-elf-objcopy"
+      - "/usr/games/xtensa-esp32-elf-objcopy"
+      - "/usr/local/games/xtensa-esp32-elf-objcopy"
+      - "/snap/bin/xtensa-esp32-elf-objcopy"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/xtensa-esp32-elf-objcopy"
+      - "/home/vini_muchulski/Android/Sdk/emulator/xtensa-esp32-elf-objcopy"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/xtensa-esp32-elf-objcopy"
+      - "/opt/gradle/bin/xtensa-esp32-elf-objcopy"
+      - "/home/vini_muchulski/.platformio/penv/bin/objcopy"
+      - "/home/vini_muchulski/.opencode/bin/objcopy"
+      - "/home/vini_muchulski/.local/bin/objcopy"
+      - "/usr/local/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/usr/sbin/objcopy"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-esp32-elf-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/xtensa-esp32-elf-readelf"
+      - "/home/vini_muchulski/.opencode/bin/xtensa-esp32-elf-readelf"
+      - "/home/vini_muchulski/.local/bin/xtensa-esp32-elf-readelf"
+      - "/usr/local/sbin/xtensa-esp32-elf-readelf"
+      - "/usr/local/bin/xtensa-esp32-elf-readelf"
+      - "/usr/sbin/xtensa-esp32-elf-readelf"
+      - "/usr/bin/xtensa-esp32-elf-readelf"
+      - "/sbin/xtensa-esp32-elf-readelf"
+      - "/bin/xtensa-esp32-elf-readelf"
+      - "/usr/games/xtensa-esp32-elf-readelf"
+      - "/usr/local/games/xtensa-esp32-elf-readelf"
+      - "/snap/bin/xtensa-esp32-elf-readelf"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/xtensa-esp32-elf-readelf"
+      - "/home/vini_muchulski/Android/Sdk/emulator/xtensa-esp32-elf-readelf"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/xtensa-esp32-elf-readelf"
+      - "/opt/gradle/bin/xtensa-esp32-elf-readelf"
+      - "/home/vini_muchulski/.platformio/penv/bin/readelf"
+      - "/home/vini_muchulski/.opencode/bin/readelf"
+      - "/home/vini_muchulski/.local/bin/readelf"
+      - "/usr/local/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/usr/sbin/readelf"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-esp32-elf-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/xtensa-esp32-elf-dlltool"
+      - "/home/vini_muchulski/.opencode/bin/xtensa-esp32-elf-dlltool"
+      - "/home/vini_muchulski/.local/bin/xtensa-esp32-elf-dlltool"
+      - "/usr/local/sbin/xtensa-esp32-elf-dlltool"
+      - "/usr/local/bin/xtensa-esp32-elf-dlltool"
+      - "/usr/sbin/xtensa-esp32-elf-dlltool"
+      - "/usr/bin/xtensa-esp32-elf-dlltool"
+      - "/sbin/xtensa-esp32-elf-dlltool"
+      - "/bin/xtensa-esp32-elf-dlltool"
+      - "/usr/games/xtensa-esp32-elf-dlltool"
+      - "/usr/local/games/xtensa-esp32-elf-dlltool"
+      - "/snap/bin/xtensa-esp32-elf-dlltool"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/xtensa-esp32-elf-dlltool"
+      - "/home/vini_muchulski/Android/Sdk/emulator/xtensa-esp32-elf-dlltool"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/xtensa-esp32-elf-dlltool"
+      - "/opt/gradle/bin/xtensa-esp32-elf-dlltool"
+      - "/home/vini_muchulski/.platformio/penv/bin/dlltool"
+      - "/home/vini_muchulski/.opencode/bin/dlltool"
+      - "/home/vini_muchulski/.local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/dlltool"
+      - "/home/vini_muchulski/Android/Sdk/emulator/dlltool"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/dlltool"
+      - "/opt/gradle/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-esp32-elf-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/xtensa-esp32-elf-addr2line"
+      - "/home/vini_muchulski/.opencode/bin/xtensa-esp32-elf-addr2line"
+      - "/home/vini_muchulski/.local/bin/xtensa-esp32-elf-addr2line"
+      - "/usr/local/sbin/xtensa-esp32-elf-addr2line"
+      - "/usr/local/bin/xtensa-esp32-elf-addr2line"
+      - "/usr/sbin/xtensa-esp32-elf-addr2line"
+      - "/usr/bin/xtensa-esp32-elf-addr2line"
+      - "/sbin/xtensa-esp32-elf-addr2line"
+      - "/bin/xtensa-esp32-elf-addr2line"
+      - "/usr/games/xtensa-esp32-elf-addr2line"
+      - "/usr/local/games/xtensa-esp32-elf-addr2line"
+      - "/snap/bin/xtensa-esp32-elf-addr2line"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/xtensa-esp32-elf-addr2line"
+      - "/home/vini_muchulski/Android/Sdk/emulator/xtensa-esp32-elf-addr2line"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/xtensa-esp32-elf-addr2line"
+      - "/opt/gradle/bin/xtensa-esp32-elf-addr2line"
+      - "/home/vini_muchulski/.platformio/penv/bin/addr2line"
+      - "/home/vini_muchulski/.opencode/bin/addr2line"
+      - "/home/vini_muchulski/.local/bin/addr2line"
+      - "/usr/local/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/usr/sbin/addr2line"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-esp32-elf-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/xtensa-esp32-elf-tapi"
+      - "/home/vini_muchulski/.opencode/bin/xtensa-esp32-elf-tapi"
+      - "/home/vini_muchulski/.local/bin/xtensa-esp32-elf-tapi"
+      - "/usr/local/sbin/xtensa-esp32-elf-tapi"
+      - "/usr/local/bin/xtensa-esp32-elf-tapi"
+      - "/usr/sbin/xtensa-esp32-elf-tapi"
+      - "/usr/bin/xtensa-esp32-elf-tapi"
+      - "/sbin/xtensa-esp32-elf-tapi"
+      - "/bin/xtensa-esp32-elf-tapi"
+      - "/usr/games/xtensa-esp32-elf-tapi"
+      - "/usr/local/games/xtensa-esp32-elf-tapi"
+      - "/snap/bin/xtensa-esp32-elf-tapi"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/xtensa-esp32-elf-tapi"
+      - "/home/vini_muchulski/Android/Sdk/emulator/xtensa-esp32-elf-tapi"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/xtensa-esp32-elf-tapi"
+      - "/opt/gradle/bin/xtensa-esp32-elf-tapi"
+      - "/home/vini_muchulski/.platformio/penv/bin/tapi"
+      - "/home/vini_muchulski/.opencode/bin/tapi"
+      - "/home/vini_muchulski/.local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/tapi"
+      - "/home/vini_muchulski/Android/Sdk/emulator/tapi"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/tapi"
+      - "/opt/gradle/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-esp32-elf-g++"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/xtensa-esp32-elf-g++"
+      - "/home/vini_muchulski/.opencode/bin/xtensa-esp32-elf-g++"
+      - "/home/vini_muchulski/.local/bin/xtensa-esp32-elf-g++"
+      - "/usr/local/sbin/xtensa-esp32-elf-g++"
+      - "/usr/local/bin/xtensa-esp32-elf-g++"
+      - "/usr/sbin/xtensa-esp32-elf-g++"
+      - "/usr/bin/xtensa-esp32-elf-g++"
+      - "/sbin/xtensa-esp32-elf-g++"
+      - "/bin/xtensa-esp32-elf-g++"
+      - "/usr/games/xtensa-esp32-elf-g++"
+      - "/usr/local/games/xtensa-esp32-elf-g++"
+      - "/snap/bin/xtensa-esp32-elf-g++"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/xtensa-esp32-elf-g++"
+      - "/home/vini_muchulski/Android/Sdk/emulator/xtensa-esp32-elf-g++"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/xtensa-esp32-elf-g++"
+      - "/opt/gradle/bin/xtensa-esp32-elf-g++"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: xtensa-esp32-elf-g++ 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: xtensa-esp32-elf-g++ 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: xtensa-esp32-elf-g++ 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: xtensa-esp32-elf-g++ 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: xtensa-esp32-elf-g++ 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: xtensa-esp32-elf-g++ 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: xtensa-esp32-elf-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: xtensa-esp32-elf-g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: xtensa-esp32-elf-g++ 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: xtensa-esp32-elf-g++ 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: xtensa-esp32-elf-g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/third_party/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: xtensa-esp32-elf-g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:64 (_cmake_find_compiler_path)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-esp32-elf-gcc"
+    candidate_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/"
+      - "/home/vini_muchulski/.opencode/bin/"
+      - "/home/vini_muchulski/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/"
+      - "/home/vini_muchulski/Android/Sdk/emulator/"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/"
+      - "/opt/gradle/bin/"
+    searched_directories:
+      - "/home/vini_muchulski/.platformio/penv/bin/xtensa-esp32-elf-gcc"
+      - "/home/vini_muchulski/.opencode/bin/xtensa-esp32-elf-gcc"
+      - "/home/vini_muchulski/.local/bin/xtensa-esp32-elf-gcc"
+      - "/usr/local/sbin/xtensa-esp32-elf-gcc"
+      - "/usr/local/bin/xtensa-esp32-elf-gcc"
+      - "/usr/sbin/xtensa-esp32-elf-gcc"
+      - "/usr/bin/xtensa-esp32-elf-gcc"
+      - "/sbin/xtensa-esp32-elf-gcc"
+      - "/bin/xtensa-esp32-elf-gcc"
+      - "/usr/games/xtensa-esp32-elf-gcc"
+      - "/usr/local/games/xtensa-esp32-elf-gcc"
+      - "/snap/bin/xtensa-esp32-elf-gcc"
+      - "/home/vini_muchulski/Android/Sdk/platform-tools/xtensa-esp32-elf-gcc"
+      - "/home/vini_muchulski/Android/Sdk/emulator/xtensa-esp32-elf-gcc"
+      - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin/xtensa-esp32-elf-gcc"
+      - "/opt/gradle/bin/xtensa-esp32-elf-gcc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/vini_muchulski/.platformio/penv/bin"
+        - "/home/vini_muchulski/.opencode/bin"
+        - "/home/vini_muchulski/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/vini_muchulski/Android/Sdk/platform-tools"
+        - "/home/vini_muchulski/Android/Sdk/emulator"
+        - "/home/vini_muchulski/Android/Sdk/cmdline-tools/latest/bin"
+        - "/opt/gradle/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is TIClang using "--version" did not match "(TI (.*) Clang Compiler)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is Diab using "-V" did not match "Wind River Systems":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)|(Arm Compiler)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is Tasking using "--version" did not match "TASKING":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/vini_muchulski/esp/esp-idf/tools/cmake/project.cmake:564 (__project)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Checking whether the ASM compiler is Renesas using "-v" did not match "(RX Family C/C\\+\\+ Compiler)|(RL78 Family Compiler)|(RH850 Family Compiler)":
+...
