@@ -154,7 +154,13 @@ As implementações específicas do S3 incluem assembly e instruções vetoriais
 
 ## Compilar e gravar
 
-Abra `yunet_esp32s3` ou `mobilenet_esp32s3_alpha1` como projeto PlatformIO no VS Code. Configure `ssid` e `password` em `src/main.cpp` para sua rede.
+Em um novo clone, copie o modelo de configuração a partir da raiz do repositório:
+
+```bash
+cp firmware/wifi_credentials.example.h firmware/wifi_credentials.local.h
+```
+
+Preencha `ssid` e `password` em `firmware/wifi_credentials.local.h`. Os cinco projetos usam esse arquivo local, que é ignorado pelo Git. Abra a aplicação desejada como projeto PlatformIO no VS Code.
 
 Os comandos abaixo são executados dentro da aplicação escolhida:
 

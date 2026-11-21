@@ -18,14 +18,13 @@
 #include "esp_flash.h"
 #include "esp_timer.h"
 #include "esp_littlefs.h"
+#include "../../wifi_credentials.local.h"
 
 #include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
 #include "tensorflow/lite/micro/tflite_bridge/micro_error_reporter.h"
 #include "tensorflow/lite/micro/micro_interpreter.h"
 #include "tensorflow/lite/schema/schema_generated.h"
 
-const char *ssid = "Starlink";
-const char *password = "diversao";
 const int serverPort = 80;
 
 constexpr const char *kModelName = "Tomato Village MobileNetV2 alpha0.5";
@@ -133,7 +132,7 @@ static void wifi_event_handler(void *arg, esp_event_base_t event_base,
 bool connect_wifi()
 {
   printf("=== Conectando ao WiFi ===\n");
-  printf("SSID: %s\n", ssid);
+  printf("SSID: %s\n", wifi_credentials::ssid);
 
   ESP_ERROR_CHECK(esp_netif_init());
   ESP_ERROR_CHECK(esp_event_loop_create_default());
@@ -152,8 +151,9 @@ bool connect_wifi()
       &instance_got_ip));
 
   wifi_config_t wifi_config = {};
-  strncpy((char *)wifi_config.sta.ssid, ssid, sizeof(wifi_config.sta.ssid));
-  strncpy((char *)wifi_config.sta.password, password,
+  strncpy((char *)wifi_config.sta.ssid, wifi_credentials::ssid,
+          sizeof(wifi_config.sta.ssid));
+  strncpy((char *)wifi_config.sta.password, wifi_credentials::password,
           sizeof(wifi_config.sta.password));
   ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA));
   ESP_ERROR_CHECK(esp_wifi_set_config(WIFI_IF_STA, &wifi_config));

@@ -1,3 +1,4 @@
 
 *.pyc
 /firmware/*/managed_components/
+/firmware/wifi_credentials.local.h
