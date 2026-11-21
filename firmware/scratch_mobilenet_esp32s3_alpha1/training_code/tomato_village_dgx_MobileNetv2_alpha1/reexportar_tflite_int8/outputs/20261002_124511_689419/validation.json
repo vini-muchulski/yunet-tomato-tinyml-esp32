@@ -1,0 +1,39 @@
+{
+  "pytorch_max_absolute_error": 9.5367431640625e-07,
+  "inlined_buffers": 71,
+  "classes": [
+    "Early_blight",
+    "Healthy",
+    "Late_blight",
+    "Leaf Miner",
+    "Magnesium Deficiency",
+    "Nitrogen Deficiency",
+    "Pottassium Deficiency",
+    "Spotted Wilt Virus"
+  ],
+  "model": "/home/jovyan/work/UFSC/ubiquos_tomato_village/esp32-s3-git-espnn-tflite/scratch_mobilenet_esp32s3_alpha1/training_code/tomato_village_dgx_MobileNetv2_alpha1/reexportar_tflite_int8/outputs/20261002_124511_689419/model_int8_avgpool.tflite",
+  "resolvers": {
+    "BUILTIN_WITHOUT_DEFAULT_DELEGATES": {
+      "accuracy": 0.8698481561822126,
+      "correct": 401,
+      "samples": 461
+    },
+    "BUILTIN_REF": {
+      "accuracy": 0.8655097613882863,
+      "correct": 399,
+      "samples": 461
+    }
+  },
+  "operators": [
+    "ADD",
+    "AVERAGE_POOL_2D",
+    "CONV_2D",
+    "DEPTHWISE_CONV_2D",
+    "FULLY_CONNECTED",
+    "PAD",
+    "TRANSPOSE"
+  ],
+  "accuracy_difference": 0.004338394793926281,
+  "prediction_disagreements": 4,
+  "approved_on_pc": true
+}

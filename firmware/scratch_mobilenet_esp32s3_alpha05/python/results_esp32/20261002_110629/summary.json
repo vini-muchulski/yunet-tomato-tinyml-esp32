@@ -1,0 +1,39 @@
+{
+  "started_at": "2026-10-02T11:06:29.852645-03:00",
+  "finished_at": "2026-10-02T11:17:38.797975-03:00",
+  "esp32_ip": "192.168.3.22",
+  "seed": 42,
+  "requested_samples": 461,
+  "successful_samples": 461,
+  "failed_samples": 0,
+  "correct_predictions": 383,
+  "accuracy": 0.8308026030368764,
+  "request_ms": {
+    "mean": 1390.9892701583435,
+    "p50": 1370.7047900006728,
+    "p95": 1527.5484869998763,
+    "p99": 1798.0646533997049
+  },
+  "inference_ms": {
+    "mean": 1125.4878655097614,
+    "p50": 1125.281,
+    "p95": 1127.412,
+    "p99": 1129.3314
+  },
+  "device_status": {
+    "success": true,
+    "model_initialized": true,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "input_dtype": "int8",
+    "input_bytes": 150528,
+    "input_scale": 0.0145424874499,
+    "input_zero_point": -5,
+    "output_classes": 8,
+    "heap_free": 2311891
+  }
+}

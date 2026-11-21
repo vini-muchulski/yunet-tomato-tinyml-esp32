@@ -1,0 +1,127 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index ea4f3fa..ee4cdd0 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -138,6 +138,10 @@ if(CONFIG_ESP_TFLITE_MICRO_USE_ESP_NN)
+     target_compile_options(${COMPONENT_LIB} PRIVATE -DESP_NN)
+ endif()
+ 
++if(CONFIG_ESP_TFLITE_MICRO_OPTRACE)
++    target_compile_definitions(${COMPONENT_LIB} PRIVATE TFLM_OPTRACE=1)
++endif()
++
+ set(common_flags -DTF_LITE_STATIC_MEMORY -DTF_LITE_DISABLE_X86_NEON -O3
+                  -Wstrict-aliasing -Wno-unused-parameter -Wall -Wextra -Wvla
+                  -Wsign-compare -Wdouble-promotion -Wswitch -Wunused-function
+diff --git a/Kconfig b/Kconfig
+index a517654..37060df 100644
+--- a/Kconfig
++++ b/Kconfig
+@@ -15,4 +15,11 @@ menu "ESP TFLite-Micro"
+             exist). Useful for portability checks, debugging, and A/B benchmarking
+             of esp-nn against the reference kernels.
+ 
++    config ESP_TFLITE_MICRO_OPTRACE
++        bool "Trace operator output tensors"
++        default n
++        help
++            Log output tensor hashes and integer statistics after each operator.
++            Enable only for debugging; tracing increases inference latency.
++
+ endmenu
+diff --git a/tensorflow/lite/micro/micro_interpreter_graph.cc b/tensorflow/lite/micro/micro_interpreter_graph.cc
+index f0bcb60..11b6dac 100644
+--- a/tensorflow/lite/micro/micro_interpreter_graph.cc
++++ b/tensorflow/lite/micro/micro_interpreter_graph.cc
+@@ -44,6 +44,72 @@ const char* OpNameFromRegistration(const TFLMRegistration* registration) {
+   }
+ }
+ 
++#if defined(TFLM_OPTRACE)
++struct OpTraceStats {
++  int64_t min = 0;
++  int64_t max = 0;
++  int64_t sum = 0;
++};
++
++template <typename T>
++OpTraceStats GetOpTraceStats(const void* data, size_t bytes) {
++  const T* values = static_cast<const T*>(data);
++  const size_t count = bytes / sizeof(T);
++  OpTraceStats stats;
++  if (count == 0) {
++    return stats;
++  }
++  stats.min = values[0];
++  stats.max = values[0];
++  for (size_t i = 0; i < count; ++i) {
++    const int64_t value = values[i];
++    stats.min = std::min(stats.min, value);
++    stats.max = std::max(stats.max, value);
++    stats.sum += value;
++  }
++  return stats;
++}
++
++void TraceOutputTensor(int subgraph_idx, uint32_t operator_idx,
++                       const TFLMRegistration* registration, int tensor_idx,
++                       const TfLiteEvalTensor* tensor) {
++  size_t bytes = 0;
++  if (tensor->data.raw == nullptr ||
++      TfLiteEvalTensorByteLength(tensor, &bytes) != kTfLiteOk) {
++    return;
++  }
++  uint32_t hash = 2166136261u;
++  const uint8_t* raw = reinterpret_cast<const uint8_t*>(tensor->data.raw);
++  for (size_t i = 0; i < bytes; ++i) {
++    hash = (hash ^ raw[i]) * 16777619u;
++  }
++  OpTraceStats stats;
++  switch (tensor->type) {
++    case kTfLiteInt8:
++      stats = GetOpTraceStats<int8_t>(raw, bytes);
++      break;
++    case kTfLiteUInt8:
++      stats = GetOpTraceStats<uint8_t>(raw, bytes);
++      break;
++    case kTfLiteInt16:
++      stats = GetOpTraceStats<int16_t>(raw, bytes);
++      break;
++    case kTfLiteInt32:
++      stats = GetOpTraceStats<int32_t>(raw, bytes);
++      break;
++    default:
++      break;
++  }
++  MicroPrintf(
++      "OPTRACE op=%u name=%s tensor=%d bytes=%u hash=%08x min=%lld max=%lld "
++      "sum=%lld subgraph=%d",
++      operator_idx, OpNameFromRegistration(registration), tensor_idx,
++      static_cast<unsigned>(bytes), static_cast<unsigned>(hash),
++      static_cast<long long>(stats.min), static_cast<long long>(stats.max),
++      static_cast<long long>(stats.sum), subgraph_idx);
++}
++#endif
++
+ // Check tensor shapes to determine if there are dynamic tensors present.
+ // Returns the index of the first dynamic tensor found, otherwise returns -1.
+ int CheckDynamicTensors(const TfLiteIntArray* const tensor_indices,
+@@ -275,6 +341,18 @@ TfLiteStatus MicroInterpreterGraph::InvokeSubgraph(int subgraph_idx) {
+ 
+     TFLITE_DCHECK(registration->invoke);
+     invoke_status = registration->invoke(context_, node);
++#if defined(TFLM_OPTRACE)
++    if (invoke_status == kTfLiteOk && node->outputs != nullptr) {
++      for (int output_idx = 0; output_idx < node->outputs->size; ++output_idx) {
++        const int tensor_idx = node->outputs->data[output_idx];
++        if (tensor_idx >= 0) {
++          TraceOutputTensor(
++              subgraph_idx, current_operator_index_, registration, tensor_idx,
++              &subgraph_allocations_[subgraph_idx].tensors[tensor_idx]);
++        }
++      }
++    }
++#endif
+ #ifdef USE_TFLM_COMPRESSION
+     GetMicroContext(context_)->ResetDecompressionMemoryAllocations();
+ #endif  // USE_TFLM_COMPRESSION

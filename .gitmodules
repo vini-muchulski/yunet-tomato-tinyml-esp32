@@ -1,0 +1,12 @@
+[submodule "firmware/git_common_components/esp-nn"]
+	path = firmware/git_common_components/esp-nn
+	url = https://github.com/espressif/esp-nn.git
+[submodule "firmware/git_common_components/esp-tflite-micro"]
+	path = firmware/git_common_components/esp-tflite-micro
+	url = https://github.com/espressif/esp-tflite-micro.git
+[submodule "firmware/git_common_components/tflite-micro"]
+	path = firmware/git_common_components/tflite-micro
+	url = https://github.com/tensorflow/tflite-micro.git
+[submodule "firmware/git_common_components/esp_littlefs"]
+	path = firmware/git_common_components/esp_littlefs
+	url = https://github.com/joltwallet/esp_littlefs.git
