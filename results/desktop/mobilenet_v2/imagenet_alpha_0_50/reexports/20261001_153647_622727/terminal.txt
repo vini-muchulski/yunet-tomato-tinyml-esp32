@@ -1,0 +1,90 @@
+(base) jovyan@385da78d7303:~/work/UFSC/ubiquos_tomato_village/esp32-s3-git-espnn-tflite/mobilenet_esp32s3_alpha05/training_code/tomato_village_dgx_MobileNetv2_alpha0.50/reexportar_tflite_int8$ python reexportar.py 
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+(00:00) [START] LiteRT-Torch Convert
+(00:00) [START] LiteRT-Torch Convert > Torch Export: serving_default
+(00:00) [START] LiteRT-Torch Convert > Torch Export: serving_default > ExportedProgram Run Decompositions
+/opt/conda/lib/python3.11/copyreg.py:105: FutureWarning: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+  return cls.__new__(cls, *args)
+(00:01) [ DONE] LiteRT-Torch Convert > Torch Export: serving_default > ExportedProgram Run Decompositions (+00:01)
+(00:01) [ DONE] LiteRT-Torch Convert > Torch Export: serving_default (+00:01)
+(00:01) [START] LiteRT-Torch Convert > Run FX Passes
+(00:02) [START] LiteRT-Torch Convert > Run FX Passes > ExportedProgram Run Decompositions
+/opt/conda/lib/python3.11/copyreg.py:105: FutureWarning: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+  return cls.__new__(cls, *args)
+(00:03) [ DONE] LiteRT-Torch Convert > Run FX Passes > ExportedProgram Run Decompositions (+00:01)
+(00:03) [ DONE] LiteRT-Torch Convert > Run FX Passes (+00:01)
+(00:03) [START] LiteRT-Torch Convert > Lower to MLIR: serving_default
+(00:03) [START] LiteRT-Torch Convert > Lower to MLIR: serving_default > ExportedProgram Run Decompositions
+/opt/conda/lib/python3.11/copyreg.py:105: FutureWarning: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+  return cls.__new__(cls, *args)
+(00:05) [ DONE] LiteRT-Torch Convert > Lower to MLIR: serving_default > ExportedProgram Run Decompositions (+00:02)
+(00:05) [START] LiteRT-Torch Convert > Lower to MLIR: serving_default > ExportedProgram Run Decompositions
+(00:05) [ DONE] LiteRT-Torch Convert > Lower to MLIR: serving_default > ExportedProgram Run Decompositions (+00:00)
+(00:05) [START] LiteRT-Torch Convert > Lower to MLIR: serving_default > Create MLIR Module
+WARNING:jax._src.xla_bridge:An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+(00:07) [ DONE] LiteRT-Torch Convert > Lower to MLIR: serving_default > Create MLIR Module (+00:02)
+(00:07) [ DONE] LiteRT-Torch Convert > Lower to MLIR: serving_default (+00:04)
+(00:07) [START] LiteRT-Torch Convert > Merge MLIR Modules
+(00:07) [ DONE] LiteRT-Torch Convert > Merge MLIR Modules (+00:00)
+(00:07) [START] LiteRT-Torch Convert > Run LiteRT Converter Passes
+(00:08) [ DONE] LiteRT-Torch Convert > Run LiteRT Converter Passes (+00:00)
+(00:08) [ DONE] LiteRT-Torch Convert (+00:08)
+(00:00) [START] Write Model to 
+/home/jovyan/work/UFSC/ubiquos_tomato_village/esp32-s3-git-espnn-tflite/mobilenet_esp32s3_alpha05/training_code/tomato_village_dgx_MobileNetv2_alpha0.50/reexportar_tflite_int8/o
+utputs/20261001_153647_622727/model_fp32_avgpool.tflite
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1790869015.860092    5831 flatbuffer_export.cc:4342] Estimated count of arithmetic ops: 195.548 M  ops, equivalently 97.774 M  MACs
+(00:00) [ DONE] Write Model to 
+/home/jovyan/work/UFSC/ubiquos_tomato_village/esp32-s3-git-espnn-tflite/mobilenet_esp32s3_alpha05/training_code/tomato_village_dgx_MobileNetv2_alpha0.50/reexportar_tflite_int8/o
+utputs/20261001_153647_622727/model_fp32_avgpool.tflite (+00:00)
+/opt/conda/lib/python3.11/site-packages/ai_edge_litert/interpreter.py:480: UserWarning: Warning: Enabling `experimental_preserve_all_tensors` with the BUILTIN or AUTO op resolver is intended for debugging purposes only. Be aware that this can significantly increase memory usage by storing all intermediate tensors. If you encounter memory problems or are not actively debugging, consider disabling this option.
+  warnings.warn(
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Applying Transformations to tensors:: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 179/179 [00:00<00:00, 94783.54it/s]
+Model name: /home/jovyan/work/UFSC/ubiquos_tomato_village/esp32-s3-git-espnn-tflite/mobilenet_esp32s3_alpha05/training_code/tomato_village_dgx_MobileNetv2_alpha0.50/reexportar_tflite_int8/outputs/20261001_153647_622727/model_fp32_avgpool.tflite
+Original model size: 2.73 MiB
+Quantized model size: 1.01 MiB
+Quantization Ratio: 0.37 (2.7x smaller)
+Total time: 30.66 ms
+BUILTIN_WITHOUT_DEFAULT_DELEGATES: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████| 461/461 [00:04<00:00, 92.41imagem/s]
+BUILTIN_REF: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 461/461 [00:28<00:00, 15.98imagem/s]
+{
+  "pytorch_max_absolute_error": 5.960464477539063e-08,
+  "inlined_buffers": 55,
+  "classes": [
+    "Early_blight",
+    "Healthy",
+    "Late_blight",
+    "Leaf Miner",
+    "Magnesium Deficiency",
+    "Nitrogen Deficiency",
+    "Pottassium Deficiency",
+    "Spotted Wilt Virus"
+  ],
+  "model": "/home/jovyan/work/UFSC/ubiquos_tomato_village/esp32-s3-git-espnn-tflite/mobilenet_esp32s3_alpha05/training_code/tomato_village_dgx_MobileNetv2_alpha0.50/reexportar_tflite_int8/outputs/20261001_153647_622727/model_int8_avgpool.tflite",
+  "resolvers": {
+    "BUILTIN_WITHOUT_DEFAULT_DELEGATES": {
+      "accuracy": 0.7310195227765727,
+      "correct": 337,
+      "samples": 461
+    },
+    "BUILTIN_REF": {
+      "accuracy": 0.7288503253796096,
+      "correct": 336,
+      "samples": 461
+    }
+  },
+  "operators": [
+    "ADD",
+    "AVERAGE_POOL_2D",
+    "CONV_2D",
+    "DEPTHWISE_CONV_2D",
+    "FULLY_CONNECTED",
+    "PAD",
+    "TRANSPOSE"
+  ],
+  "accuracy_difference": 0.002169197396963085,
+  "prediction_disagreements": 12,
+  "approved_on_pc": true
+}
+Artefatos validados no PC: /home/jovyan/work/UFSC/ubiquos_tomato_village/esp32-s3-git-espnn-tflite/mobilenet_esp32s3_alpha05/training_code/tomato_village_dgx_MobileNetv2_alpha0.50/reexportar_tflite_int8/outputs/20261001_153647_622727

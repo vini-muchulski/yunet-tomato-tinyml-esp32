@@ -1,0 +1,9 @@
+true/pred,Early_blight,Healthy,Late_blight,Leaf Miner,Magnesium Deficiency,Nitrogen Deficiency,Pottassium Deficiency,Spotted Wilt Virus
+Early_blight,41,2,1,1,0,0,1,4
+Healthy,0,16,1,5,0,0,0,0
+Late_blight,4,1,83,0,0,1,0,3
+Leaf Miner,2,7,0,90,1,0,0,4
+Magnesium Deficiency,1,0,0,3,90,1,0,0
+Nitrogen Deficiency,0,0,1,0,1,35,0,0
+Pottassium Deficiency,0,0,0,0,1,0,7,0
+Spotted Wilt Virus,1,0,10,5,0,0,0,37
